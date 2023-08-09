@@ -1,12 +1,12 @@
 p{
     color:blue;
 }
-li{
-    color:green;
+.laye1{
+    color:rgba(0, 128, 0, 0.321);
 }
 #para{
     color:red;
 }
-.div1div{
-    color:black;
+#para .laye1{
+    padding-top: 50px;
 }
