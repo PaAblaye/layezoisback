@@ -21,7 +21,9 @@ img{
 }
 
 .col{
-    height: 100px;
+    position :relative;
+    top : 100px;
+    height: 250px;
     width: 600px;
     left : 280px;
     background-color: green;
