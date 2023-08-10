@@ -32,3 +32,11 @@ img{
     position:relative;
     top : 200px;
 }
+.separe-fin{
+    position:absolute;
+    bottom: 10px;
+    height: 200px;
+    width: 1000px;
+    left : 10px;
+    background-color: rgba(0, 87, 128, 0.423);
+}
