@@ -8,7 +8,7 @@ p{
     text-align: center;
     font-weight: 88;
     font-size: 88px;
-    color:red;
+    color:rgb(255, 89, 0);
 }
 img{
     width: 600px;
@@ -23,8 +23,8 @@ img{
 .col{
     position :relative;
     top : 100px;
-    height: 250px;
+    height: 100px;
     width: 600px;
     left : 280px;
-    background-color: green;
+    background-color: rgba(128, 90, 0, 0.129);
 }
