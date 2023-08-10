@@ -63,7 +63,6 @@ img{
     position :relative;
     left: 0px;
 }
-.cote-image{
-    position: relative;
-    left: 500;
+nav div h2{
+    display: inline-block;
 }
