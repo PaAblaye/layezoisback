@@ -21,8 +21,8 @@ img{
 }
 
 .col{
-    background-color: green;
     height: 100px;
     width: 600px;
     left : 280px;
+    background-color: green;
 }
