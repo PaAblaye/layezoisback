@@ -29,6 +29,6 @@ img{
     background-color: rgba(128, 90, 0, 0.129);
 }
 .separe{
-    position:absolute;
+    position:relative;
     top : 200px;
 }
