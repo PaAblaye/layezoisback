@@ -53,17 +53,20 @@ img{
 }
 .math{
     position: absolute;
-    top : 450px;
+    top : 225px;
+    left : 600px;
     text-align: center;
 }
 .phy{
-    position :relative;
-    right: 0px;
+    position: absolute;
+    top : 240px;
+    left : 550px;
 }
 .inf{
-    position :relative;
-    left: 0px;
+    position: absolute;
+    top : 240px;
+    left : 650px;
 }
-nav img h2{
+/* nav img h2{
     display: inline-block;
-}
+} */
