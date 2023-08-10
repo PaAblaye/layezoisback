@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 p{
     color:blue;
 }
@@ -51,6 +55,9 @@ img{
     width: 400;
     margin: 0 auto;
 }
+nav img h2{
+    display: inline-block;
+}
 .math{
     position: relative;
     top : 205px;
@@ -67,6 +74,4 @@ img{
     top : 240px;
     left : 800px;
 }
-nav img h2{
-    display: inline-block;
-}
+
