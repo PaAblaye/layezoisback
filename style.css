@@ -32,11 +32,15 @@ img{
     position:relative;
     top : 200px;
 }
-.separe-fin{
+.separe-fin1{
     position:absolute;
-    bottom: 10px;
-    height: 200px;
+    top : 900px;
+}
+.separe-fin2{
+    position:absolute;
+    bottom: 0px;
+    height: 400px;
     width: 1000px;
-    left : 10px;
-    background-color: rgba(0, 87, 128, 0.423);
+    left : 0px;
+    background-color: blue;
 }
