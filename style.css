@@ -19,3 +19,10 @@ img{
     position: relative;
     left : 150px;
 }
+
+.col{
+    position: absolute;
+    color: bisque;
+    height: 100px;
+    width: max-content;
+}
