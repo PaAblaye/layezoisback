@@ -50,6 +50,7 @@ img{
     margin: 0 auto;
 }
 .math{
+    position: relative;
     text-align: center;
 }
 .phy{
@@ -57,5 +58,10 @@ img{
     right: 0px;
 }
 .inf{
-    text-align: center;
+    position :relative;
+    left: 0px;
+}
+.cote-image{
+    position: relative;
+    left: 500;
 }
