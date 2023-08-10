@@ -53,8 +53,8 @@ img{
 }
 .math{
     position: absolute;
-    top : 225px;
-    left : 600px;
+    top : 205px;
+    left : 680px;
     text-align: center;
 }
 .phy{
@@ -65,7 +65,7 @@ img{
 .inf{
     position: absolute;
     top : 240px;
-    left : 650px;
+    left : 800px;
 }
 /* nav img h2{
     display: inline-block;
