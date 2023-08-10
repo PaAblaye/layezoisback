@@ -2,7 +2,7 @@ p{
     color:blue;
 }
 .laye1{
-    color:rgba(68, 128, 0, 0.834);
+    color:rgba(128, 0, 68, 0.754);
 }
 #para{
     text-align: center;
@@ -30,5 +30,5 @@ img{
 }
 .separe{
     position:relative;
-    top : 400px;
+    top : 200px;
 }
