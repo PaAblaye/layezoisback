@@ -11,7 +11,11 @@ p{
     color:red;
 }
 img{
-    width: 700px;
+    width: 600px;
     height: 400px;
-    background-position: center;
+}
+
+#image{
+    position: relative;
+    left =50px;
 }
