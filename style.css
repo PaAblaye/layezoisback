@@ -5,5 +5,8 @@ p{
     color:rgba(0, 128, 0, 0.321);
 }
 #para{
+    text-align: center;
+    font-weight: 88;
+    font-size: 88px;
     color:red;
 }
