@@ -32,11 +32,11 @@ img{
     position:relative;
     top : 200px;
 }
-.separe-fin1{
+.separe-fin2{
     position:relative;
     top : 900px;
 }
-.separe-fin2{
+.separe-fin1{
     position:absolute;
     bottom: 0px;
     height: 400px;
