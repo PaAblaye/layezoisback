@@ -2,7 +2,7 @@ p{
     color:blue;
 }
 .laye1{
-    color:rgba(0, 128, 0, 0.321);
+    color:rgba(0, 128, 41, 0.155);
 }
 #para{
     text-align: center;
@@ -22,9 +22,12 @@ img{
 
 .col{
     position :relative;
-    top : 100px;
+    top : 130px;
     height: 100px;
     width: 600px;
     left : 280px;
     background-color: rgba(128, 90, 0, 0.129);
+}
+.separe{
+    top : 200px;
 }
