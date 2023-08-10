@@ -52,7 +52,8 @@ img{
     margin: 0 auto;
 }
 .math{
-    position: relative;
+    position: absolute;
+    top : 450px;
     text-align: center;
 }
 .phy{
