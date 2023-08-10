@@ -37,7 +37,7 @@ img{
     bottom: 0px;
 }
 .separe-fin1{
-    position:absolute;
+    position:relative;
     bottom: 0px;
     height: 300px;
     width : 1300px;
