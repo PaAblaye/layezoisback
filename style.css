@@ -11,13 +11,13 @@ p{
     color:rgb(255, 89, 0);
 }
 img{
-    width: 500px;
+    width: 490px;
     height: 350px;
 }
 
 #image{
     position: relative;
-    left : 10px;
+    left : 0px;
 }
 
 .col{
@@ -48,4 +48,14 @@ img{
     height: 2px;
     width: 400;
     margin: 0 auto;
+}
+.math{
+    text-align: center;
+}
+.phy{
+    position :relative;
+    right: 0px;
+}
+.inf{
+    text-align: center;
 }
