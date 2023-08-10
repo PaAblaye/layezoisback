@@ -34,12 +34,12 @@ img{
 }
 .separe-fin2{
     position:relative;
-    top : 900px;
+    bottom: 0px;
 }
 .separe-fin1{
     position:absolute;
     bottom: 0px;
-    height: 400px;
+    height: 300px;
     width : 1300px;
     background-color: rgb(0, 140, 255);
 }
