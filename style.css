@@ -1,26 +1,26 @@
 body{
     margin: 0px;
     padding: 0px;
+    background: white;
 }
-p{
-    color:blue;
-}
-.laye1{
-    color:rgba(128, 0, 68, 0.754);
+
+.avant-tout{
+    border: 1px solid #686;
+    background:#f6f8fa;
+    padding: 1px;
+    border-radius: 0 0 150px 150px;
 }
 #para{
     text-align: center;
-    font-weight: 88;
-    font-size: 88px;
-    color:rgb(255, 89, 0);
-}
-img{
-    width: 490px;
-    height: 350px;
+    font-weight: 78;
+    font-size: 40px;
+    color:rgb(21, 28, 21);
+    text-shadow: 3px -2px 0px cadetblue;
 }
 
+
 #image{
-    vertical-align: top;
+    /* vertical-align: top; */
     margin-right: 20px;
     position: relative;
     left : 0px;
@@ -28,50 +28,80 @@ img{
 
 .col{
     position :relative;
-    top : 130px;
+    margin : 0 auto;
     height: 100px;
-    width: 600px;
-    left : 280px;
+    width: 50%;
+    border-radius: 15px 15px 0 0;
     background-color: rgba(128, 90, 0, 0.129);
 }
-.separe{
-    position:relative;
-    top : 200px;
-}
-.separe-fin2{
-    position:relative;
-    bottom: 0px;
-}
-.separe-fin1{
-    position:relative;
-    bottom: 0px;
-    height: 300px;
-    width : 1300px;
-    background-color: rgb(0, 140, 255);
-}
+
 .souligne{
-    background-color: rgba(0, 0, 0, 0.057);
-    height: 2px;
-    width: 400;
+    background-color: rgba(128, 0, 0, 0.204);
+    height: 3px;
+    width: 50%;
     margin: 0 auto;
 }
-nav img h2{
-    display: inline-block;
-}
-.math{
+ .marge div{
+    display: flex;
+ }
+
+ .marge li{
+    list-style: none;
+    height: 95px;
+    width: 180px;
+    border-radius: 100px;
+    background: rgba(109, 104, 116, 0.291);
+    cursor: pointer;
+    margin:20;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ .matiere {
     position: relative;
-    top : 205px;
-    left : 680px;
-    text-align: center;
+    width: 100%;
+    left: 40%;
 }
-.phy{
-    position: relative;
-    top : 240px;
-    left : 550px;
-}
-.inf{
-    position: relative;
-    top : 240px;
-    left : 800px;
+ .marge li :hover{
+    background: firebrick;
+    color :white;
+ }
+.marge{
+    position: absolute;
+    border : 1px solid rgba(128, 0, 0, 0.204);
+    background:rgba(0, 0, 0, 0.057);
+    width :390px;
+    float : left;
+    min-height: 130px;
+    top :400px;
 }
 
+.decale{
+    height: 200px;
+    width: 10px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+} 
+@media screen and (max-width : 900px) {
+    body{
+        background: red;
+    }
+
+}
+/* .separe-fin2{
+    position:absolute;
+    bottom: 0;
+}
+.separe-fin1{
+    position:absolute;
+    bottom: 0;
+    content: "";
+    height: 300px;
+    width : 100%;
+    background-color: rgb(0, 140, 255);
+} */
