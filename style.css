@@ -1,10 +1,5 @@
 
-#tete{
-    position: absolute;
-    height: 420px;
-    left: 0%;
-    width: 100%;
-}
+
 .tete0{
     left:0%;
     height: 310px ;
@@ -74,20 +69,18 @@
     min-height: 620px;
     min-width: 100%;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     
 }
 .sous-corps1-gauche{
     position: relative;
     min-height: 620px;
-    width: 35%;
     left: 0%;
+    width: 35%;
     background: rgba(167, 160, 160, 0.124);
 }
 .sous-corps1-droite{
     min-height: 620px;
-    width: 65%;
+    min-width: 65%;
     background: rgba(127, 127, 151, 0.645);
     border-radius: 100px 100px 0 0;
     
@@ -116,15 +109,23 @@
         right: 17%;
     }
 } 
- @media (max-width :500px) {
+ @media (max-width :579px) {
     .annonce{
         font-size: 92%;
         right: 10%;
     }
+    .im img{
+        display: none;
+        
+    }
+    .lic1 li {
+        position: relative;
+        left: -50px;
+    }
     
 } 
 @media (max-width :1000px) {
-    img{
+    .im img{
         width: 99%;
         
     }
@@ -143,12 +144,31 @@
 }
 .lic1 li , .lic2 li{
     position: relative;
-    margin: 50px;
-    left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    left: 5px;
 }
+
+
 .niveau{
     margin: 50px;
 }
-.lic1 li:hover , .lic2 li :hover{
+.lic1 li :hover{
     opacity: 0.3;
+    width: 30px;
+    height: 20px;
+    margin: 7px;
 }
+ .lic2 li :hover{
+    opacity: 0.3;
+    width: 30px;
+    height: 20px;
+    margin: 7px;
+}
+@media (min-width :579px) {
+    .lic1 li , .lic2 li{
+        position: relative;
+        margin: 50px;
+        left: 70px;
+    }
+} 
