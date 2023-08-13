@@ -1,107 +1,154 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background: white;
-}
 
-.avant-tout{
-    border: 1px solid #686;
-    background:#f6f8fa;
-    padding: 1px;
-    border-radius: 0 0 150px 150px;
+#tete{
+    position: absolute;
+    height: 420px;
+    left: 0%;
+    width: 100%;
 }
-#para{
-    text-align: center;
-    font-weight: 78;
-    font-size: 40px;
-    color:rgb(21, 28, 21);
-    text-shadow: 3px -2px 0px cadetblue;
+.tete0{
+    left:0%;
+    height: 310px ;
+    width: 100%;
+    background: url(R.jpg ) ;
+    background-size: 100% 100%;
 }
-
-
-#image{
-    /* vertical-align: top; */
-    margin-right: 20px;
+.tete1{
     position: relative;
-    left : 0px;
+    top:-21px;
+    height: 110px;
+    width: 100%;
+    background: rgba(127, 127, 151, 0.568);
+    border-radius: 0 0 100px 100px;
 }
-
-.col{
-    position :relative;
-    margin : 0 auto;
-    height: 100px;
-    width: 50%;
-    border-radius: 15px 15px 0 0;
-    background-color: rgba(128, 90, 0, 0.129);
+.GALACTIQUES{
+    position: relative;
+    top : 64px;
+    text-align: center;
+    text-shadow: 9px 0px 12px #1723148c;
+    /* color: rgba(0, 0, 0, 0.261); */
 }
-
-.souligne{
-    background-color: rgba(128, 0, 0, 0.204);
-    height: 3px;
-    width: 50%;
+.soulign-galact1{
+    position: relative;
+    height: 2px;
+    background: black;
+    width: 90px;
+    top: 0px;
     margin: 0 auto;
 }
- .marge div{
-    display: flex;
- }
-
- .marge li{
-    list-style: none;
-    height: 95px;
-    width: 180px;
-    border-radius: 100px;
-    background: rgba(109, 104, 116, 0.291);
-    cursor: pointer;
-    margin:20;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
- }
- .matiere {
+.soulign-galact2{
     position: relative;
+    height: 8px;
+    background: rgb(127, 127, 151);
+    width: 60%;
+    top: 42px;
+    margin: 0 auto;
+    border-radius: 0px 0px 100px 100px;
+}
+.soulign-galact3{
+    position: relative;
+    height: 8px;
+    background: rgb(77, 77, 152);
+    width: 30%;
+    top: 40px;
+    margin: 0 auto;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.list-Renseignement{
+    position: relative;
+    min-height: 250px;
     width: 100%;
-    left: 40%;
+    
+
 }
- .marge li :hover{
-    background: firebrick;
-    color :white;
- }
-.marge{
+.annonce{
     position: absolute;
-    border : 1px solid rgba(128, 0, 0, 0.204);
-    background:rgba(0, 0, 0, 0.057);
-    width :390px;
-    float : left;
-    min-height: 130px;
-    top :400px;
+    text-align: end;
+    right: 25%;
+    width: 34%;
+    top: 110px;
 }
-
-.decale{
-    height: 200px;
-    width: 10px;
+.section1{
+    position: relative;
+    margin: 180px 0;
+    min-height: 620px;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
-
-main{
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-} 
-@media screen and (max-width : 900px) {
-    body{
-        background: red;
-    }
-
+.sous-corps1-gauche{
+    position: relative;
+    min-height: 620px;
+    width: 35%;
+    left: 0%;
+    background: rgba(167, 160, 160, 0.124);
 }
-/* .separe-fin2{
-    position:absolute;
-    bottom: 0;
+.sous-corps1-droite{
+    min-height: 620px;
+    width: 65%;
+    background: rgba(127, 127, 151, 0.645);
+    border-radius: 100px 100px 0 0;
+    
 }
-.separe-fin1{
-    position:absolute;
-    bottom: 0;
-    content: "";
-    height: 300px;
-    width : 100%;
-    background-color: rgb(0, 140, 255);
+.list-Renseignement li{
+    margin: 2px;   
+    display: flex;
+    list-style: none;
+}
+.satien{
+    margin: 100px 0;
+    min-height: 100px;
+}
+/* *{
+    border: 2px solid red;
 } */
+.corp-prime{
+    position: absolute;
+    top: 430px;
+    min-height: 620px;
+    width: 99%;
+}
+ @media (max-width :880px) {
+    .annonce{
+        font-size: 95%;
+        right: 17%;
+    }
+} 
+ @media (max-width :500px) {
+    .annonce{
+        font-size: 92%;
+        right: 10%;
+    }
+    
+} 
+@media (max-width :1000px) {
+    img{
+        width: 99%;
+        
+    }
+} 
+.pathie{
+    height: 800px;
+    width: 70%;
+    position: relative;
+    top: 120px;
+    left: 0px;
+
+}
+.lic1 , .lic2{
+    position: relative;
+    left: 70px;
+}
+.lic1 li , .lic2 li{
+    position: relative;
+    margin: 50px;
+    left: 70px;
+}
+.niveau{
+    margin: 50px;
+}
+.lic1 li:hover , .lic2 li :hover{
+    opacity: 0.3;
+}
