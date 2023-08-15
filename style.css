@@ -85,8 +85,8 @@
     border-radius: 100px 100px 0 0;
     
 }
+
 .list-Renseignement li{
-    margin: 2px;   
     display: flex;
     list-style: none;
 }
@@ -121,6 +121,12 @@
     .lic1 li {
         position: relative;
         left: -50px;
+    }
+    .list-Renseignement ul{
+        padding: 10px;
+    }
+    .annonce{
+        top: 80px;
     }
     
 } 
